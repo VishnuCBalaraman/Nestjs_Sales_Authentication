@@ -1,0 +1,8 @@
+npm install -g @nestjs/cli
+nest new my-nest-project
+cd my-nest-project
+npm install @nestjs/typeorm typeorm
+npm install mysql/mongodb
+npm install class-validator
+nest g resource user
+npm run start:dev
